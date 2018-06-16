@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'LostinWild';
+	src: url('./LostinWild.eot');
+	src: local('LostinWild'), url('./LostinWild.woff') format('woff'), url('./LostinWild.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_78605">Text with this font applied</p> */
+.fontsforweb_fontid_78605 {
+	font-family: 'LostinWild' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */

@@ -1,0 +1,32 @@
+#code{
+	/*width:75%;*/
+	background-color:#000;
+	outline:0;
+	color:gray;
+	padding-top:1em ;
+	padding-left:8px;
+	border: 1px solid #eee;
+	box-shadow: 8px 8px 0 #eee;
+	margin :auto;
+	resize:none;
+	font-size: 18px;
+}
+#codeshow{
+	background-color:#000;
+	outline:0;
+	color:gray;
+	padding-top:1em ;
+	padding-left:8px;
+	border: 1px solid #eee;
+	box-shadow: 8px 8px 0 #eee;
+	margin :auto;
+	resize:none;
+	font-size: 18px;
+}
+#group-bouton{
+	position:relative;
+	
+}
+.x{
+	color:red;
+}

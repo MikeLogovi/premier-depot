@@ -1,0 +1,13 @@
+<?php
+    require('controller/frontend.php');
+     if(isset($_GET['action'])){	
+          if($_GET['action']=='registration'){
+          	    registration();
+          }
+          elseif($_GET['action']=='memberformular'){
+          	   formularTreatment();
+          }
+     }
+     else{
+     	homePage();
+     }

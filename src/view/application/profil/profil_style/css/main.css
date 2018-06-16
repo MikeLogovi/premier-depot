@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,400,700);
+.main_img{
+	width:100px;
+	height:100px;
+}
+#img_info{
+    
+    padding-top:2%;
+    padding-bottom: 2%;
+	height:50%;
+	background-color:rgba(0,180,64,0.4);
+	width:100%;
+	overflow :hidden;
+}
+.info_perso li{
+    list-style-type: none;
+    font-family: font-family: 'Open Sans Condensed', sans-serif, sans-serif;
+    font-style:bold; 
+    font-size:15px;
+    padding-top:5px;
+}
+.info_perso span{
+   
+    font-family: '';
+}
+.tab{
+	padding: 0px;
+	background-color:rgba(0,17,34,0.005);;
+}
+.tab li{
+	display:inline-block;
+	
+	padding-top:2%;
+	padding-right:0.5%;
+	padding-bottom:2%;
+	margin-left:0%;
+	padding-left:0.5%;
+	list-style-type:none; 
+    float:left;
+    border-right:2px solid green;
+}
+.person{
+	display:inline
+	width:130px;
+	height:25px;
+	font-size:20px;
+	font-family: "Arial";
+	color:white;
+	position:relative;
+	right:10000px;
+}
+#prenom{
+	position:relative;
+	right:20%;
+	bottom:10%;
+}
+#nom{
+	position:relative;
+	left:20%;
+	bottom:10%;
+}
+.tab li:last-child{
+	
+    border:none;
+}
+.tab li:hover{
+	color:red;
+    background-color:rgba(0,17,34,1);;
+}
+#info_code:hover{
+	width:34.612%;
+	color:red;
+    background-color:rgba(0,17,34,1);;
+}
+.infos_statut{
+	
+	height:50%;
+	width:100%;
+	color:black;
+	
+}

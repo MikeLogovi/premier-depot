@@ -1,0 +1,55 @@
+@font-face {
+	font-family: 'FashionVictim';
+	src: url('src/public/fonts/fashionvictim/FashionVictim.eot');
+	src: local('src/public/fonts/fashionvictim/FashionVictim'), url('src/public/fonts/fashionvictim/FashionVictim.woff') format('woff'), url('src/public/fonts/fashionvictim/FashionVictim.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_79820">Text with this font applied</p> */
+.fontsforweb_fontid_79820 {
+	font-family: 'FashionVictim' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */
+@font-face {
+	font-family: 'LostinWild';
+	src: url('src/public/fonts/lostinwild/LostinWild.eot');
+	src: local('src/public/fonts/lostinwild/LostinWild'), url('src/public/fonts/lostinwild/LostinWild.woff') format('woff'), url('src/public/fonts/lostinwild/LostinWild.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_78605">Text with this font applied</p> */
+.fontsforweb_fontid_78605 {
+	font-family: 'LostinWild' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */
+.forum-main{
+
+	margin-bottom:25px;
+    max-height:250px;
+    overflow:auto;
+}
+#tableau{
+	position:relative;
+	bottom: 17px;
+}
+.forumImage{
+	width:75%;
+	height:75%;
+	float:left;
+
+}
+.fImage{
+	
+	float:left;         
+
+}
+.forumPseudo{
+	margin-left: 15px;
+	margin-top:35px;
+}
+.th{
+	font-size:15px;
+	font-family: ;
+	/*color:rgba(28,227,227,1);*/
+}
+#fmessage{
+  resize:none;
+}

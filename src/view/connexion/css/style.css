@@ -1,0 +1,462 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+/* start editing from here */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0;padding:0;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+.underline{	padding-bottom:5px;	border-bottom: 1px solid #eee; margin:0 0 20px 0;}/* Add 5px bottom padding and a underline */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*end reset*/
+/*-contact start here--*/
+body {
+   background-color: #eee;
+   background-image:url("../images/log.jpg");
+   background-size:100% 100%;
+   padding:50px 0px 30px 0px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 100%;
+}
+.top-bar {
+  background-size: cover;
+  padding: 15px 0px;
+  background: #5541e0; /* Old browsers */
+background: -moz-linear-gradient(top,  #5541e0 1%, #6a5cdb 26%, #9f95eb 67%, #e1dcfa 93%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#5541e0), color-stop(26%,#6a5cdb), color-stop(67%,#9f95eb), color-stop(93%,#e1dcfa)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #5541e0 1%,#6a5cdb 26%,#9f95eb 67%,#e1dcfa 93%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #5541e0 1%,#6a5cdb 26%,#9f95eb 67%,#e1dcfa 93%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #5541e0 1%,#6a5cdb 26%,#9f95eb 67%,#e1dcfa 93%); /* IE10+ */
+background: linear-gradient(to bottom,  #5541e0 1%,#6a5cdb 26%,#9f95eb 67%,#e1dcfa 93%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5541e0', endColorstr='#e1dcfa',GradientType=0 ); /* IE6-9 */
+
+}
+.navg {
+  float: left;
+  position: relative;
+}
+.top-bar h2 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #fff;
+   width: 30%;
+  margin: 0 auto;
+}
+.navg ul {
+  list-style: none;
+  margin: 15px 0px 0px 0px;
+  background: #39DAF7;
+  position: absolute;
+  top: 60%;
+  left: 45%;
+}
+span.menu{
+     display:block;
+     cursor:pointer;
+	 text-align:left;
+	 padding: 0px 0px 0px 25px;
+}
+ul.res{
+	 display:none;
+	 padding: 5px 35px 5px 35px;
+	 z-index: 1;
+}
+ul.res li a:hover,ul.res li a.active{
+	 color:black;
+	 transition: 0.5s all;
+ -webkit-transition: 0.5s all;
+ -moz-transition:  0.5s all;
+ -o-transition:  0.5s all;
+}
+.navg ul.res li a {
+	display: block;
+	padding: 10px;
+	color: #fff;
+	font-size: 14px;
+	background: #39DAF7;
+}
+.navg ul.res li a:hover{
+	color:#000;
+}
+.navg ul.res li{
+	display:block;
+	text-align:center;
+	margin:0px;
+	background-color:#fff;
+}	
+.app {
+  background:rgba(85,170,255,0.85);
+  width: 33%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0px 0px 30px 0px;
+}
+.cam-img {
+  margin: 40px 0px 35px 0px;
+  position:relative;
+}
+.cam-img a {
+  display: block;
+}
+.cam-img img {
+  width: 33%;
+}
+.cam-img input[type="file"] {
+  width: 210px;
+  height: 200px;
+  background: url(../images/sub-draw.png)no-repeat;
+  display: inline-block;
+  outline: none;
+  position: absolute;
+  top:0%;
+  left: 30%;
+  opacity: 0;
+  cursor: pointer;
+}
+.app input[type="text"] {
+  background: url(../images/email.png)no-repeat 0px 14px;
+  outline: none;
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  padding: 10px 10px 10px 39px;
+  margin: 0px 0px 25px 0px;
+  width: 60%;
+  border-bottom: 1px solid #999;
+  -webkit-appearance: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+.app input[type="password"] {
+  background: url(../images/lock.png)no-repeat 0px 4px;
+  outline: none;
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  padding: 10px 10px 10px 50px;
+  margin: 0px 0px 25px 0px;
+  width: 60%;
+  border-bottom: 1px solid #999;
+  -webkit-appearance: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+
+.app input[type="submit"] {
+  background: #39DAF7;
+  color: #FFF;
+  font-size: 25px;
+  font-weight: 300;
+  width: 71%;
+  padding: 14px 15px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin: 20px 0px 0px 0px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.app input[type="submit"]:hover {
+  background: #858793;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+.app p {
+  font-size: 19px;
+  font-weight: 400;
+  color: #5A6779;
+  margin: 40px 0px 0px 0px;
+}
+.app p a{
+  font-size: 20px;
+  font-weight: 700;
+  color: #5A6779;
+}
+.app p a:hover{
+  color: #ccc;
+}
+.copyright {
+  padding: 40px 0px 0px 0px;
+  text-align: center;
+}
+.copyright p {
+  font-size: 16px;
+  font-weight: 400;
+  color:#fff;
+}
+.copyright p a{
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+.copyright p a:hover{
+	color:#39DAF7;
+	 transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+.clear{
+	clear:both;
+}
+/*--meadia quiries start here--*/
+@media(max-width:1440px){
+.cam-img img {
+  width: 30%;
+}
+.app input[type="submit"] {
+  font-size: 25px;
+  width: 72%;
+  padding: 12px 28px;
+  margin: 15px 0px 0px 0px;
+}
+.app input[type="text"] {
+  font-size: 20px;
+}
+.app input[type="password"] {
+  outline: none;
+}
+.cam-img input[type="file"] {
+  width: 135px;
+  height: 135px;
+  left: 35%;
+}
+span.menu img {
+  width: 80%;
+}
+span.menu {
+  padding: 7px 0px 0px 25px;
+}
+}
+@media(max-width:1366px){
+.app input[type="submit"] {
+  font-size: 20px;
+}
+.top-bar {
+  padding: 10px 0px;
+}
+}
+@media(max-width:1280px){
+.app input[type="submit"] {
+  width: 75%;
+}
+}
+@media(max-width:1024px){
+.app {
+  padding: 0px 0px 40px 0px;
+}
+.app input[type="text"] {
+  font-size: 20px;
+  background: url(../images/email.png)no-repeat 0px 12px;
+  margin: 0px 0px 20px 0px;
+}
+.app input[type="password"] {
+  background: url(../images/lock.png)no-repeat 0px 7px;
+  font-size: 20px;
+  margin: 0px 0px 20px 0px;
+}
+.app input[type="submit"] {
+  font-size: 20px;
+  width: 79%;
+  padding: 13px 28px;
+  margin: 5px 0px 0px 0px;
+}
+.app p {
+  margin: 25px 0px 0px 0px;
+  font-size: 15px;
+  padding: 0px 4px;
+}
+.app p a {
+  font-size: 19px;
+}
+span.menu img {
+  width: 83%;
+}
+.top-bar h2 {
+  font-size: 25px;
+}
+.cam-img input[type="file"] {
+  width: 100px;
+  height: 100px;
+}
+}
+@media(max-width:768px){
+.app {
+  width: 47%;	
+  padding: 0px 0px 40px 0px;
+}
+.app input[type="submit"] {
+  width: 78%;
+  margin: 20px 0px 0px 0px;
+  font-size: 25px;
+  padding: 15px 28px;
+}
+span.menu img {
+  width: 75%;
+}
+.top-bar {
+  padding: 15px 0px;
+}
+.app p {
+  margin: 80px 0px 0px 0px;
+}
+body {
+  padding: 85px 0px 30px 0px;
+}
+.copyright {
+  padding: 125px 0px 0px 0px;
+}
+}
+@media(max-width:640px){
+.cam-img  a img {
+  width: 35%;
+}
+.app input[type="submit"] {
+  width: 82%;	
+  font-size: 20px;
+  padding: 12px 28px;
+}
+.app p a {
+  font-size: 15px;
+}
+.app p {
+  font-size: 15px;
+   margin: 60px 0px 0px 0px;
+}
+.cam-img {
+  margin: 40px 0px 40px 0px;
+}
+}
+@media(max-width:480px){
+.top-bar h2 {
+  font-size: 22px;	
+  width: 31%;
+}
+.menu img {
+  width: 75%;
+}
+span.menu {
+  padding: 0px 0px 0px 17px;
+}
+body {
+  padding: 50px 0px 30px 0px;
+}
+.app input[type="text"] {
+  background: url(../images/email.png)no-repeat 0px 14px;
+  font-size: 19px;
+  margin: 0px 0px 20px 0px;
+}
+.app input[type="password"] {
+  background: url(../images/lock.png)no-repeat 0px 6px;
+  font-size: 19px;
+  margin: 0px 0px 20px 0px;
+}
+.app input[type="submit"] {
+  width: 82%;
+  font-size: 17px;
+  padding: 10px 28px;
+  margin: 25px 0px 0px 0px;
+}
+.app {
+  padding: 0px 0px 25px 0px;
+  width: 65%;
+}
+span.menu img {
+  width: 65%;
+}
+.navg ul {
+  top: 50%;
+  left: 30%;
+}
+}
+@media(max-width:320px){
+.menu img {
+  width: 50%;
+}
+.top-bar h2 {
+  font-size: 18px;
+}
+.top-bar {
+  padding: 10px 0px;
+}	
+.app a img {
+  width: 37%;
+}
+.app input[type="text"] {
+  background: url(../images/email.png)no-repeat 2px 7px;
+  font-size: 15px;
+  margin: 0px 0px 10px 0px;
+  padding: 10px 10px 10px 45px;
+}
+.app input[type="password"] {
+  background: url(../images/lock.png)no-repeat 2px 0px;
+  font-size: 15px;
+  margin: 0px 0px 10px 0px;
+  padding: 10px 10px 10px 45px;
+}
+.app input[type="submit"] {
+  width: 81%;
+  font-size: 15px;
+  padding: 7px 28px;
+  margin: 17px 0px 0px 0px;
+}
+.app p {
+  font-size: 13px;
+  margin: 20px 0px 0px 0px;
+}
+.app p a {
+  font-size: 12.5px;
+}
+.copyright p {
+  font-size: 13px;
+}
+.copyright p a {
+  font-size: 13px;
+}
+.copyright {
+  padding: 16px 0px 0px 0px;
+}
+body {
+  padding: 40px 0px 20px 0px;
+}
+.navg ul.res li a {
+  padding: 5px;
+  font-size: 11px;
+}
+.app {
+  width: 86%;
+}
+.cam-img {
+  margin: 20px 0px 20px 0px;
+}
+.cam-img input[type="file"] {
+  left: 30%;
+}
+}
+/*--meadia quiries end here--*/
